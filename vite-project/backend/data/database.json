@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": "oVUFGDsLCbRYNvKfOlzP3JlOovQ2",
+      "name": "12",
+      "email": "12@gmail.com",
+      "role": "user",
+      "joinedDate": "6/20/2026",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "authProvider": "firebase"
+    },
+    {
+      "id": "T4nNHZ4omOTedfOo2E0KVOZdjR72",
+      "name": "1234",
+      "email": "1234@gmail.com",
+      "role": "user",
+      "joinedDate": "6/20/2026",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "authProvider": "firebase"
+    },
+    {
+      "id": "SXRCkXii7kaCuW4fygK8NpqOTlx2",
+      "name": "nazeha",
+      "email": "nazehamosharaf@gmail.com",
+      "role": "admin",
+      "joinedDate": "6/20/2026",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "authProvider": "firebase"
+    }
+  ],
+  "loginActivity": [
+    {
+      "id": "1781968598906_hqybt0g5abh",
+      "userName": "12",
+      "email": "12@gmail.com",
+      "role": "user",
+      "action": "Login",
+      "timestamp": "6/20/2026, 9:16:38 PM",
+      "status": "Success"
+    },
+    {
+      "id": "1781968593598_cmzknloqtsh",
+      "userName": "12",
+      "email": "12@gmail.com",
+      "role": "user",
+      "action": "Signup",
+      "timestamp": "6/20/2026, 9:16:33 PM",
+      "status": "New Firebase Account"
+    },
+    {
+      "id": "1781968367919_0cj1myrv4isi",
+      "userName": "1234",
+      "email": "1234@gmail.com",
+      "role": "user",
+      "action": "Signup",
+      "timestamp": "6/20/2026, 9:12:47 PM",
+      "status": "New Firebase Account"
+    },
+    {
+      "id": "1781968297179_pgw9tup64x",
+      "userName": "nazeha",
+      "email": "nazehamosharaf@gmail.com",
+      "role": "admin",
+      "action": "Signup",
+      "timestamp": "6/20/2026, 9:11:37 PM",
+      "status": "New Firebase Account"
+    }
+  ],
+  "bookings": [],
+  "hostels": [
+    {
+      "id": 1,
+      "name": "Green Hostel",
+      "location": "Bahaddarhut",
+      "rooms": 8,
+      "totalRooms": 12,
+      "priceAmount": 3000,
+      "price": "BDT 3000/month",
+      "rating": 4.5,
+      "facilities": [
+        "WiFi",
+        "Study Room",
+        "Laundry",
+        "Security"
+      ],
+      "contactWhatsapp": "+880 1700-000001",
+      "contactEmail": "greenhostel@staynest.com"
+    },
+    {
+      "id": 2,
+      "name": "City Hostel",
+      "location": "Chittagong",
+      "rooms": 3,
+      "totalRooms": 8,
+      "priceAmount": 2800,
+      "price": "BDT 2800/month",
+      "rating": 4.2,
+      "facilities": [
+        "WiFi",
+        "CCTV",
+        "Dining",
+        "Transport Access"
+      ],
+      "contactWhatsapp": "+880 1700-000002",
+      "contactEmail": "cityhostel@staynest.com"
+    },
+    {
+      "id": 3,
+      "name": "Dream Stay",
+      "location": "Kumira",
+      "rooms": 12,
+      "totalRooms": 16,
+      "priceAmount": 3200,
+      "price": "BDT 3200/month",
+      "rating": 4.8,
+      "facilities": [
+        "WiFi",
+        "Generator",
+        "Dining",
+        "Prayer Space"
+      ],
+      "contactWhatsapp": "+880 1700-000003",
+      "contactEmail": "dreamstay@staynest.com"
+    },
+    {
+      "name": "11",
+      "location": "222",
+      "rooms": 21,
+      "totalRooms": 21,
+      "priceAmount": 299,
+      "rating": 4.5,
+      "facilities": [],
+      "contactWhatsapp": "+880 1700-000000",
+      "contactEmail": "info@staynest.com",
+      "price": "৳ 299/month",
+      "id": 1781968341647,
+      "createdAt": "2026-06-20T15:12:21.658Z"
+    }
+  ],
+  "notifications": [],
+  "updatedAt": "2026-06-20T15:16:38.906Z"
+}
