@@ -12,6 +12,7 @@ app.use(
       "http://localhost:5173",
       "http://127.0.0.1:5173",
       "https://staynest-hostel-management-system.vercel.app",
+"https://staynest-hostel-management-system-n.vercel.app",
     ],
     methods: ["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
