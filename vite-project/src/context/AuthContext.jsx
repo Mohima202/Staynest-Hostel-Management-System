@@ -89,17 +89,25 @@ const getAuthToken = () => window.localStorage.getItem("staynestToken") || "";
 
 const apiRequest = async (path, options = {}) => {
   const token = getAuthToken();
+
   const headers = {
     "Content-Type": "application/json",
     ...(token ? { Authorization: `Bearer ${token}` } : {}),
     ...options.headers,
   };
 
-  const response = await fetch(path, {
+  const API_BASE_URL =
+    import.meta.env.VITE_API_URL || "";
+
+  const response = await fetch(`${API_BASE_URL}${path}`, {
     ...options,
     headers,
-    body: options.body === undefined ? undefined : JSON.stringify(options.body),
+    body:
+      options.body === undefined
+        ? undefined
+        : JSON.stringify(options.body),
   });
+
   const data = await response.json().catch(() => ({}));
 
   if (!response.ok) {

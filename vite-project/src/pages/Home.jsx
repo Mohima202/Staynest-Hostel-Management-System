@@ -12,11 +12,10 @@ function Home() {
         <Hero />
         <Features />
         <Hostels />
-        <Contact />
+        <Contact />f
       </div>
       <Footer />
     </main>
   );
 }
-
 export default Home;
